@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { useClerk } from "@clerk/nextjs";
-import { useRouter } from "next/navigation";
+
 import { UserButton } from "@clerk/nextjs";
 import styled from "styled-components";
 
@@ -72,7 +71,7 @@ const Navbar: React.FC = () => {
   return (
     <NavbarWrapper>
       <Logo>
-        <a href="/">Craftify AI</a>
+        <a>Craftify AI</a>
       </Logo>
       <NavList>
         <NavItem>
